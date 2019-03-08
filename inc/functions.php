@@ -8,7 +8,7 @@ function get_items($name)
   $pageTitle = ucfirst($name);
   global $catalog;
   echo "<div class='row'>";
-  echo "<h1 class='red-text text-lighten-2'>" . ucfirst($name) . "</h1>";
+  echo "<h1 class='blue-text text-darken-1'>" . ucfirst($name) . "</h1>";
   foreach ($catalog as $id => $item) {
     if (strtolower($item['category']) == strtolower($name)) {
       echo "

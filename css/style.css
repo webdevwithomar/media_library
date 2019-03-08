@@ -1,8 +1,8 @@
 .breadcrumb:before {
-  color: #e57373;
+  color: #1e88e5;
 }
 
 .breadcrumb,
 .breadcrumb:last-child {
-  color: #e57373;
+  color: #1e88e5;
 }

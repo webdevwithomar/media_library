@@ -40,7 +40,7 @@ if (isset($_GET["cat"])) {
       foreach ($unique_names as $id => $heading) {
         echo "
             <div class='row'>
-            <h2 class='red-text text-lighten-2'>$heading</h1>";
+            <h1 class='blue-text text-darken-1'>$heading</h1>";
         foreach ($catalog as $id => $item) {
           if (strtolower($heading) == strtolower($item['category'])) {
             echo "

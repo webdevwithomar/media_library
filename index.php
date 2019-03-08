@@ -5,7 +5,7 @@
 
 <!-- main -->
 <div class="container">
-    <h1 class="red-text text-lighten-1 center-align">Media Library</h1>
+    <h1 class="blue-text text-darken-1 center-align">Media Library</h1>
     <p class="center-align flow-text grey-text">
         An online library to explore your favorite books, movies and music
     </p>
@@ -20,7 +20,7 @@
     </div>
     <!-- button to see catalog -->
     <div style="margin-bottom: 50px;">
-        <a href="catalog.php" class="waves-effect waves-light btn-large red lighten-2">See All</a>
+        <a href="catalog.php" class="waves-effect waves-light btn-large blue darken-1">See All</a>
     </div>
 </div>
 
